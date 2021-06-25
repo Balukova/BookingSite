@@ -1,0 +1,98 @@
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.csprojAssemblyReference.cache
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\LoginWindow.g.cs
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp_MarkupCompile.lref
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\WpfApp.exe.config
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\WpfApp.exe
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\WpfApp.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\BL.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Data.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Domains.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Entities.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Mappers.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\BL.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Data.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Domains.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Entities.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Mappers.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\App.g.cs
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\LoginWindow.baml
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\MainWindow.baml
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.g.resources
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.cache
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.exe
+C:\Users\1\source\repos\BookingSite\WpfApp\obj\Debug\WpfApp.pdb
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\EntityFramework.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\BL.dll.config
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Data.dll.config
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Domains.dll.config
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Entities.dll.config
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\EntityFramework.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\1\source\repos\BookingSite\WpfApp\bin\Debug\Mappers.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\WpfApp.exe.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\WpfApp.exe
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\WpfApp.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\BL.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Data.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Domains.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Entities.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\EntityFramework.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Mappers.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\System.Data.SqlClient.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\BL.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\BL.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Data.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Data.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Domains.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Domains.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Entities.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Entities.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Mappers.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Mappers.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\EntityFramework.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\System.Data.SqlClient.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.csprojAssemblyReference.cache
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\LoginWindow.g.cs
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\App.g.cs
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp_MarkupCompile.lref
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\LoginWindow.baml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\MainWindow.baml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.g.resources
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.cache
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.csproj.CoreCompileInputs.cache
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.exe
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\WpfApp\obj\Debug\WpfApp.pdb

@@ -1,0 +1,72 @@
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\BL.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\BL.pdb
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Data.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Domains.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Entities.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Mappers.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Data.pdb
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Domains.pdb
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Entities.pdb
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Mappers.pdb
+C:\Users\1\source\repos\BookingSite\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\1\source\repos\BookingSite\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\BookingSite\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\1\source\repos\BookingSite\BL\obj\Debug\BL.dll
+C:\Users\1\source\repos\BookingSite\BL\obj\Debug\BL.pdb
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\BL.dll.config
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\EntityFramework.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Data.dll.config
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Domains.dll.config
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Entities.dll.config
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\Mappers.dll.config
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\EntityFramework.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\source\repos\BookingSite\BL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\BL.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\BL.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\BL.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Data.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Domains.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Entities.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\EntityFramework.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Mappers.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Data.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Data.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Domains.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Domains.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Entities.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Entities.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Mappers.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Mappers.dll.config
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\EntityFramework.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\obj\Debug\BL.dll
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\BL\obj\Debug\BL.pdb

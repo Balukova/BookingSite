@@ -1,0 +1,17 @@
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Controllers.dll
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Controllers.pdb
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\BL.dll
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Domains.dll
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Data.dll
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Entities.dll
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Mappers.dll
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\BL.pdb
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Domains.pdb
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Data.pdb
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Entities.pdb
+C:\Users\1\source\repos\BookingSite\Controllers\bin\Debug\Mappers.pdb
+C:\Users\1\source\repos\BookingSite\Controllers\obj\Debug\Controllers.csprojAssemblyReference.cache
+C:\Users\1\source\repos\BookingSite\Controllers\obj\Debug\Controllers.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\BookingSite\Controllers\obj\Debug\Controllers.csproj.CopyComplete
+C:\Users\1\source\repos\BookingSite\Controllers\obj\Debug\Controllers.dll
+C:\Users\1\source\repos\BookingSite\Controllers\obj\Debug\Controllers.pdb
