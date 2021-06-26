@@ -22,13 +22,17 @@ namespace BL
             this.bookingMapper = bookingMapper;
         }
 
-        public void MakeBooking(User user, ProductInShop productInShop, DateTime startDate, DateTime endDate)
+        public bool MakeBooking(User user, OrderingBLModel obm)
         {
-            productInShop.Product = null;
-            Booking booking = new Booking { UserId = user.Id, ProductInShop = productInShop, StartDate = startDate, EndDate = endDate };
-            unitOfWork.BookingRepository.Create(bookingMapper.ToEntity(booking));
-            productInShopService.DecreaseQuantity(productInShop);
-            unitOfWork.Save();
+            if (obm.ProductInShop.Quantity != 0)
+            {
+                Booking booking = new Booking { UserId = user.Id, ProductInShopId = obm.ProductInShop.Id, StartDate = obm.StartDate, EndDate = obm.EndDate };
+                unitOfWork.BookingRepository.Create(bookingMapper.ToEntity(booking));
+                productInShopService.DecreaseQuantity(obm.ProductInShop);
+                unitOfWork.Save();
+                return true;
+            }
+            return false;
         }
     }
 }

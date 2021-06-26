@@ -17,14 +17,16 @@ namespace Mappers
             this.shopMapper = shopMapper;
             this.productMapper = productMapper;
         }
-        public ProductInShop ToDomain(ProductInShopEntity entity)
+        public ProductInShop ToModel(ProductInShopEntity entity)
         {
-            return new ProductInShop { Id = entity.Id, Quantity = entity.Quantity, Product = productMapper.ToDomain(entity.Product), Shop = shopMapper.ToDomain(entity.Shop), Price = entity.Price, ShopId = entity.ShopId, ProductId = entity.ProductId };
+            if (entity == null) return null;
+            return new ProductInShop { Id = entity.Id, Quantity = entity.Quantity, Product = productMapper.ToModel(entity.Product), Shop = shopMapper.ToModel(entity.Shop), Price = entity.Price, ShopId = entity.ShopId, ProductId = entity.ProductId };
         }
 
-        public ProductInShopEntity ToEntity(ProductInShop domain)
+        public ProductInShopEntity ToEntity(ProductInShop model)
         {
-            return new ProductInShopEntity { Id = domain.Id, Quantity = domain.Quantity, Product = productMapper.ToEntity(domain.Product), Shop = shopMapper.ToEntity(domain.Shop), Price = domain.Price, ProductId = domain.ProductId, ShopId = domain.ShopId };
+            if (model == null) return null;
+            return new ProductInShopEntity { Id = model.Id, Quantity = model.Quantity, Product = productMapper.ToEntity(model.Product), Shop = shopMapper.ToEntity(model.Shop), Price = model.Price, ProductId = model.ProductId, ShopId = model.ShopId };
         }
     }
 }

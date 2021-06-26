@@ -10,14 +10,16 @@ namespace Mappers
 {
     public class ShopMapper : IMapper<Shop, ShopEntity>
     {
-        public Shop ToDomain(ShopEntity entity)
+        public Shop ToModel(ShopEntity entity)
         {
+            if (entity == null) return null;
             return new Shop { Id = entity.Id, Name = entity.Name };
         }
 
-        public ShopEntity ToEntity(Shop domain)
+        public ShopEntity ToEntity(Shop model)
         {
-            return new ShopEntity { Id = domain.Id, Name = domain.Name };
+            if (model == null) return null;
+            return new ShopEntity { Id = model.Id, Name = model.Name };
         }
     }
 }

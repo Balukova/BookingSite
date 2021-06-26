@@ -19,19 +19,22 @@ namespace BL
             this.unitOfWork = unitOfWork;
         }
 
-        public void DecreaseQuantity(ProductInShop entity)
+        public void DecreaseQuantity(ProductInShop model)
         {
-            unitOfWork.ProductInShopRepository.DecreaseQuantity(productInShopMapper.ToEntity(entity));
+
+            model.Quantity -= 1;
+            unitOfWork.ProductInShopRepository.Update(productInShopMapper.ToEntity(model));
         }
 
         public IList<ProductInShop> GetProductInShopsByProductName(string name)
         {
-            return unitOfWork.ProductInShopRepository.GetProductInShopsByProductName(name).Select(pis=>productInShopMapper.ToDomain(pis)).ToList();
+            return unitOfWork.ProductInShopRepository.GetAvailableProductInShopsByProductName(name).Select(pis=>productInShopMapper.ToModel(pis)).ToList();
         }
 
-        public void IncreaseQuantity(ProductInShop entity)
+        public void IncreaseQuantity(ProductInShop model)
         {
-            unitOfWork.ProductInShopRepository.IncreaseQuantity(productInShopMapper.ToEntity(entity));
+            model.Quantity += 1;
+            unitOfWork.ProductInShopRepository.Update(productInShopMapper.ToEntity(model));
         }
     }
 }

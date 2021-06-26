@@ -15,14 +15,16 @@ namespace Mappers
         {
             this.productInShopMapper = productInShopMapper;
         }
-        public Booking ToDomain(BookingEntity entity)
+        public Booking ToModel(BookingEntity entity)
         {
-            return new Booking { Id = entity.Id, ProductInShop = productInShopMapper.ToDomain(entity.ProductInShop), UserId = entity.UserId, StartDate = entity.StartDate, EndDate = entity.EndDate };
+            if (entity == null) return null;
+            return new Booking { Id = entity.Id, ProductInShop = productInShopMapper.ToModel(entity.ProductInShop), ProductInShopId = entity.ProductInShopId, UserId = entity.UserId, StartDate = entity.StartDate, EndDate = entity.EndDate };
         }
 
-        public BookingEntity ToEntity(Booking domain)
+        public BookingEntity ToEntity(Booking model)
         {
-            return new BookingEntity { Id = domain.Id, ProductInShop = productInShopMapper.ToEntity(domain.ProductInShop), UserId = domain.UserId, StartDate = domain.StartDate, EndDate = domain.EndDate };
+            if (model == null) return null;
+            return new BookingEntity { Id = model.Id, ProductInShop = productInShopMapper.ToEntity(model.ProductInShop), ProductInShopId = model.ProductInShopId, UserId = model.UserId, StartDate = model.StartDate, EndDate = model.EndDate };
         }
     }
 }

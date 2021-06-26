@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public interface IBookingRepository<TEntity>:IRepository<TEntity> where TEntity:IBaseEntity
+    public interface IBookingRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity:IBaseEntity
     {
     }
 }

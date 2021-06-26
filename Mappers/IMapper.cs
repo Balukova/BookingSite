@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Mappers
 {
-    public interface IMapper<TDomain, TEntity>
+    public interface IMapper<TModel, TEntity>
     {
-        TDomain ToDomain(TEntity entity);
-        TEntity ToEntity(TDomain domain);
+        TModel ToModel(TEntity entity);
+        TEntity ToEntity(TModel model);
     }
 }

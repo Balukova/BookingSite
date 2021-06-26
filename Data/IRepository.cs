@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public interface IRepository<TEntity> where TEntity: IBaseEntity
+    public interface IRepository<TEntity, TKey> where TEntity: IBaseEntity
     {
         void Create(TEntity entity);
-
-        TEntity GetById(int id);
+        TEntity GetById(TKey id);
         void Update(TEntity entity);
-        void DeleteById(int id);
+        void DeleteById(TKey id);
         IList<TEntity> GetAll();
     }
 }

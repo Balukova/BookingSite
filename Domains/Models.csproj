@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Booking.cs" />
     <Compile Include="IBase.cs" />
+    <Compile Include="OrderingBLModel.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductInShop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

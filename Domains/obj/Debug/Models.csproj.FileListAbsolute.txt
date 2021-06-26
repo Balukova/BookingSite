@@ -21,3 +21,4 @@ C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методол�
 C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\Domains\obj\Debug\Models.csproj.CopyComplete
 C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\Domains\obj\Debug\Domains.dll
 C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\Domains\obj\Debug\Domains.pdb
+C:\Users\baluk\OneDrive\Рабочий стол\4 семестр\методологии\BookingSite\Domains\obj\Debug\Models.csprojAssemblyReference.cache

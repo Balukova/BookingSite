@@ -9,15 +9,16 @@ namespace Mappers
 {
     public class ProductMapper : IMapper<Product, ProductEntity>
     {
-        public Product ToDomain(ProductEntity entity)
+        public Product ToModel(ProductEntity entity)
         {
+            if (entity == null) return null;
             return new Product { Id = entity.Id,  Name = entity.Name };
         }
 
-        public ProductEntity ToEntity(Product domain)
+        public ProductEntity ToEntity(Product model)
         {
-            if (domain == null) return null;
-            return new ProductEntity { Id = domain.Id, Name = domain.Name };
+            if (model == null) return null;
+            return new ProductEntity { Id = model.Id, Name = model.Name };
         }
     }
 }

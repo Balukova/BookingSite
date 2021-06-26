@@ -27,11 +27,11 @@ namespace WpfApp
         }
         private void OnConfigure(ServiceCollection services)
         {
-            services.AddSingleton<IProductRepository<ProductEntity>, ProductRepository>();
-            services.AddSingleton<IShopRepository<ShopEntity>, ShopRepository>();
-            services.AddSingleton<IProductInShopRepository<ProductInShopEntity>, ProductInShopRepository>();
-            services.AddSingleton<IUserRepository<UserEntity>, UserRepository>();
-            services.AddSingleton<IBookingRepository<BookingEntity>, BookingRepository>();
+            services.AddSingleton<IProductRepository<ProductEntity, int>, ProductRepository>();
+            services.AddSingleton<IShopRepository<ShopEntity, int>, ShopRepository>();
+            services.AddSingleton<IProductInShopRepository<ProductInShopEntity, int>, ProductInShopRepository>();
+            services.AddSingleton<IUserRepository<UserEntity, int>, UserRepository>();
+            services.AddSingleton<IBookingRepository<BookingEntity, int>, BookingRepository>();
 
             services.AddSingleton<IMapper<User, UserEntity>, UserMapper>();
             services.AddSingleton<IMapper<Product, ProductEntity>, ProductMapper>();

@@ -8,6 +8,6 @@ namespace BL
 {
     public interface IBookingService
     {
-        void MakeBooking(User user, ProductInShop productInShop, DateTime startDate, DateTime endDate);
+        bool MakeBooking(User user, OrderingBLModel obm);
     }
 }

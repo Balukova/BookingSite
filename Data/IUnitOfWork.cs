@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using Entities;
 namespace Data
 {
-    public interface IUnitOfWork 
+    public interface IUnitOfWork : IDisposable
     {
-        IProductRepository<ProductEntity> ProductRepository { get; }
-        IShopRepository<ShopEntity> ShopRepository { get; }
-        IProductInShopRepository<ProductInShopEntity> ProductInShopRepository { get; }
-        IUserRepository<UserEntity> UserRepository { get; }
-        IBookingRepository<BookingEntity> BookingRepository { get; }
+        IProductRepository<ProductEntity, int> ProductRepository { get; }
+        IShopRepository<ShopEntity, int> ShopRepository { get; }
+        IProductInShopRepository<ProductInShopEntity, int> ProductInShopRepository { get; }
+        IUserRepository<UserEntity, int> UserRepository { get; }
+        IBookingRepository<BookingEntity, int> BookingRepository { get; }
 
         void Save();
         

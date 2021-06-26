@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class UserRepository : Repository<UserEntity>, IUserRepository<UserEntity>
+    public class UserRepository : Repository<UserEntity, int>, IUserRepository<UserEntity, int>
     {
         BookingDbContext context;
         public UserRepository(BookingDbContext context) : base(context)

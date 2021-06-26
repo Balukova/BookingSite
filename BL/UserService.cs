@@ -22,7 +22,7 @@ namespace BL
 
         public User GetUserByLoginAndPassword(string login, string password)
         {
-            return userMapper.ToDomain(unitOfWork.UserRepository.GetUserByLoginAndPassword(login, password));
+            return userMapper.ToModel(unitOfWork.UserRepository.GetUserByLoginAndPassword(login, password));
         }
     }
 }

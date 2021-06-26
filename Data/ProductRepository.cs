@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class ProductRepository: Repository<ProductEntity>, IProductRepository<ProductEntity>
+    public class ProductRepository: Repository<ProductEntity, int>, IProductRepository<ProductEntity, int>
     {
        
         BookingDbContext context;

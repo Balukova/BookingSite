@@ -66,20 +66,20 @@ namespace WpfApp
             {
                 return findProductInShopsByProductName ?? (findProductInShopsByProductName = new RelayCommand(obj =>
                 {
-                    //ProductInShops.Clear();
-                    //OnPropertyChanged();
                     ProductInShops = new ObservableCollection<ProductInShop>();
                     IList<ProductInShop> result = productInShopService.GetProductInShopsByProductName(ProductName);
-                    //foreach (var pis in productInShopService.GetProductInShopsByProductName(ProductName))
                     foreach(ProductInShop pis in result)
                     {
                         
                         ProductInShops.Add(pis);
-                        MessageBox.Show(pis.Quantity.ToString());
+                        //MessageBox.Show(pis.Quantity.ToString());
                     }
                 }, obj=>(ProductName!=null && !ProductName.Equals(""))));
             }
         }
+
+
+        
         private RelayCommand makeBooking;
         public RelayCommand MakeBooking
         {
@@ -87,9 +87,12 @@ namespace WpfApp
             {
                 return makeBooking ?? (makeBooking = new RelayCommand(obj =>
                 {
-                    MessageBox.Show(SelectedProductInShop.Product.Id.ToString());
-                    bookingService.MakeBooking(user, SelectedProductInShop, DateTime.Now, EndDate);
-                    FindProductInShopsByProductName.Execute(null);
+                    bool book = bookingService.MakeBooking(user, new OrderingBLModel { ProductInShop = SelectedProductInShop, StartDate = DateTime.Now, EndDate = EndDate });
+                    if (book == false)
+                    {
+                        MessageBox.Show("Oops! You can`t book this item!");
+                    }
+                FindProductInShopsByProductName.Execute(null);
                 }, obj => (user != null && EndDate!=null && SelectedProductInShop != null)));
             }
         }
@@ -113,6 +116,10 @@ namespace WpfApp
                 return login ?? (login = new RelayCommand(obj =>
                 {
                     user = userService.GetUserByLoginAndPassword(UserLogin, UserPassword);
+                    if (user != null)
+                    {
+                        (obj as Window).Close();
+                    }
                     OnPropertyChanged();
                 }, obj=> UserLogin!=null && !UserLogin.Equals("") && UserPassword != null && !UserPassword.Equals("")));
             }

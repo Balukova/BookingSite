@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public interface IProductInShopRepository<TEntity>: IRepository<TEntity> where TEntity: IBaseEntity
+    public interface IProductInShopRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity: IBaseEntity
     {
-        IList<TEntity> GetProductInShopsByProductName(string name);
+        IList<TEntity> GetAvailableProductInShopsByProductName(string name);
 
-        void DecreaseQuantity(TEntity entity);
-        void IncreaseQuantity(TEntity entity);
     }
 }

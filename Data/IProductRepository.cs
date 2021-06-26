@@ -7,7 +7,7 @@ using Entities;
 
 namespace Data
 {
-    public interface IProductRepository<TEntity> : IRepository<TEntity> where TEntity: IBaseEntity
+    public interface IProductRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity: IBaseEntity
     {
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Entities;
 namespace Data
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IBaseEntity
+    public class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : class, IBaseEntity
     {
         private BookingDbContext context;
         private DbSet<TEntity> dbSet;
@@ -22,13 +22,10 @@ namespace Data
             context.SaveChanges();
         }
 
-        public void DeleteById(int id)
+        public void DeleteById(TKey id)
         {
             TEntity entityToDelete = dbSet.Find(id);
-           // if (context.Entry(entityToDelete).State == EntityState.Detached)
-           // {
-           //     dbSet.Attach(entityToDelete);
-           // }
+
             dbSet.Remove(entityToDelete);
             context.SaveChanges();
         }
@@ -38,7 +35,7 @@ namespace Data
             return dbSet.ToList();
         }
 
-        public TEntity GetById(int id)
+        public TEntity GetById(TKey id)
         {
             return dbSet.Find(id);
         }
@@ -46,15 +43,10 @@ namespace Data
         public void Update(TEntity entity)
         {
             TEntity existed = dbSet.Find(entity.Id);
-            //if (existed == null)
-            //{
-            //    dbSet.Attach(entity);
-            //    context.Entry(entity).State = EntityState.Modified;
-            //} else
-           // {
-              //  dbSet.Attach(existed);
-                context.Entry(existed).State = EntityState.Modified;
-           // }
+
+            context.Entry(existed).CurrentValues.SetValues(entity);
+            context.Entry(existed).State = EntityState.Modified;
+
             context.SaveChanges();
             
         }

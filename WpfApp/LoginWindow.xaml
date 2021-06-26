@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
+        x:Name="LoginView"
         mc:Ignorable="d"
         Title="LoginWindow" Height="450" Width="800">
     <Grid>
@@ -22,7 +23,7 @@
             <TextBox Text="{Binding UserLogin, UpdateSourceTrigger=PropertyChanged}"></TextBox>
             <TextBlock>Enter password</TextBlock>
             <TextBox Text="{Binding UserPassword, UpdateSourceTrigger=PropertyChanged}"></TextBox>
-            <Button Margin="0 10 0 0" Command="{Binding Login}" IsCancel="True" >Login</Button>
+            <Button Margin="0 10 0 0" Command="{Binding Login}" CommandParameter="{Binding ElementName=LoginView}" >Login</Button>
         </StackPanel>
     </Grid>
 </Window>

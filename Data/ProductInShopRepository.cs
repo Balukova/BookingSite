@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Entities;
 namespace Data
 {
-    public class ProductInShopRepository: Repository<ProductInShopEntity>, IProductInShopRepository<ProductInShopEntity>
+    public class ProductInShopRepository: Repository<ProductInShopEntity, int>, IProductInShopRepository<ProductInShopEntity, int>
     {
         BookingDbContext context;
         public ProductInShopRepository(BookingDbContext context) : base(context)
@@ -15,29 +15,11 @@ namespace Data
         }
         
 
-        public IList<ProductInShopEntity> GetProductInShopsByProductName(string name)
+        public IList<ProductInShopEntity> GetAvailableProductInShopsByProductName(string name)
         {
-            return context.ProductInShopEntities.Include("Product").Include("Shop").Where(pis => pis.Product.Name.Equals(name)).ToList();
+            return context.ProductInShopEntities.Include("Product").Include("Shop").Where(pis => pis.Product.Name.Equals(name) && pis.Quantity > 0).ToList();
         }
 
-        public void DecreaseQuantity(ProductInShopEntity entity)
-        {
-            if (entity.Quantity <= 1)
-            {
-                DeleteById(entity.Id);
-            }
-            else
-            {
-                entity.Quantity -= 1;
-                Update(entity);
-            }
-        }
-
-        public void IncreaseQuantity(ProductInShopEntity entity)
-        {
-            entity.Quantity += 1;
-            Update(entity);
-        }
       
     }
 }

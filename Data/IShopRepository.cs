@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public interface IShopRepository<TEntity>: IRepository<TEntity> where TEntity:IBaseEntity
+    public interface IShopRepository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity:IBaseEntity
     {
 
     }
